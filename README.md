@@ -1,2 +1,8 @@
-# Book-Recommender-System
-A recommendation system for books based on their rating using Surprise in Python
+# Book Recommendation System using Surprise
+The goal of this project is to provide personalized book recommendations to users by analyzing their ratings and identifying similar books. The implemented recommendation system employs the Surprise library, which offers collaborative filtering algorithms such as K-Nearest Neighbors (KNN), Stochastic Gradient Descent (SGD), and Singular Value Decomposition (SVD).
+
+## Key Features
+<b>Surprise Library<b>: Utilizes the Surprise library, a scikit designed for building and evaluating recommendation systems in Python.
+K-Nearest Neighbors (KNN): Finds the closest neighbors to identify books with similar ratings and suggests them as recommendations.
+K-Fold Cross Validation: Validates the recommendation system's performance using KNN, SGD, and SVD with K-Fold cross-validation.
+Kaggle Dataset: The recommendation system is developed using the Kaggle Book Recommendation System dataset, ensuring a diverse and extensive collection of book ratings.
